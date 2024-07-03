@@ -1,0 +1,19 @@
+/* Increase the width of the top and left borders of the table */
+.wc-tab table {
+	border-top: 2px solid #E0E0E0;
+	border-left: 2px solid #E0E0E0;
+}
+
+/* Increase the width of the bottom and right borders of each cell */
+.wc-tab tr td {
+	border-bottom: 2px solid #E0E0E0;
+	border-right: 2px solid #E0E0E0;
+	padding: 10px;
+}
+
+/* Additional styles for the table headers to make them stand out */
+.wc-tab tr td:first-child {
+	font-weight: 900;
+	width: 25%;
+	background-color: #F5F5FA;
+}
